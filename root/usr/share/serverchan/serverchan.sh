@@ -32,7 +32,7 @@ touch ${dir}mac_name
 logfile="/var/log/server_chan.log"
 scfile="/var/log/serverchan.file"
 touch ${logfile}
-curl -s "http://sc.ftqq.com/$serverchan_sckey.send?text=%e3%80%90${hostname}%e3%80%91%e8%b7%af%e7%94%b1%e6%88%96%e6%8f%92%e4%bb%b6%e9%87%8d%e5%90%af"
+curl -s "http://apppage.haleyryan.cn/grop/weiq/sender?text=%e3%80%90${hostname}%e3%80%91%e8%b7%af%e7%94%b1%e6%88%96%e6%8f%92%e4%bb%b6%e9%87%8d%e5%90%af"
 echo `date "+%H:%M:%S"` >> ${logfile}
 echo "路由或插件重启！" >> ${logfile}
 
